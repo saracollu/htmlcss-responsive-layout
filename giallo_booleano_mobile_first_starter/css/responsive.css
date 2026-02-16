@@ -55,6 +55,11 @@
     
     .recipe-card {
         display: flex;
+
+        .recipe-video {
+        max-height: 300px;
+        max-width: 500px;
+        }
         ul { 
             display: block;
         }
@@ -62,6 +67,8 @@
 
     .social-networks .label {
 	display: block;
+    font-size: x-small;
+    font-weight: 200;
     }
 
     footer {
