@@ -45,7 +45,7 @@
     }
 }
 
-/* 992px*/
+/*992px*/
 
 @media screen and (min-width: 993px) {
 
@@ -77,3 +77,20 @@
     }
 }
 
+/*BONUS*/
+
+@media screen and (min-width: 577px) {
+
+     .clearfix {
+       
+        img {
+            float: inline-start;
+            margin: 20px;
+        }
+
+    }
+
+    .btn {
+        font-size: x-large;
+    }
+}
