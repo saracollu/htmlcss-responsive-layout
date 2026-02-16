@@ -22,4 +22,20 @@
         display: flex;
     }
 
-    
+    .btn {
+        font-size: 25px;
+    }
+
+    .ads {
+        display: flex;
+    }
+
+    .clearfix {
+       
+        img {
+            float: inline-start;
+            margin: 20px;
+        }
+
+    }
+}
