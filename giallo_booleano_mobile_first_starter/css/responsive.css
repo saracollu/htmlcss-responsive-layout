@@ -1,0 +1,25 @@
+/* Soluzione qui */
+
+@media screen and (min-width: 769px) {
+  
+    #topbar {
+        justify-content: flex-start;
+    }
+
+    main {
+        padding: 40px;
+    }
+
+    .recipe-origin {
+        display: inline;
+    }
+  
+    .recipe-name {
+        font-size: xx-large;
+}
+    
+    .recipe-card {
+        display: flex;
+    }
+
+    
