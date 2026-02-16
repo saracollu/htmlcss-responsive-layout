@@ -1,4 +1,4 @@
-/* Soluzione qui */
+/* 768px */
 
 @media screen and (min-width: 769px) {
   
@@ -16,10 +16,15 @@
   
     .recipe-name {
         font-size: xx-large;
-}
+    }
     
     .recipe-card {
-        display: flex;
+        
+        
+        ul {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
     }
 
     .btn {
@@ -39,3 +44,29 @@
 
     }
 }
+
+/* 992px*/
+
+@media screen and (min-width: 993px) {
+
+     .recipe-name {
+        font-size: xxx-large;
+    }
+    
+    .recipe-card {
+        display: flex;
+        ul { 
+            display: block;
+        }
+    }
+
+    .social-networks .label {
+	display: block;
+    }
+
+    footer {
+         display: flex;
+         justify-content: space-between;
+    }
+}
+
